@@ -23,3 +23,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Build fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="surya_global-user 12 RKQ1.211019.001 V14.0.2.0.SJGMIXM release-keys" \
+    BuildFingerprint=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.2.0.SJGMIXM:user/release-keys
