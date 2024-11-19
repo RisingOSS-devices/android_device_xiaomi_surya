@@ -1,0 +1,26 @@
+[
+    {
+        "remote" : "github",
+        "repository" : "crdroidandroid/android_kernel_xiaomi_surya",
+        "branch" : "15.0",
+        "target_path" : "kernel/xiaomi/surya"
+    },
+    {
+        "remote" : "github",
+        "repository" : "crdroidandroid/android_vendor_xiaomi_surya",
+        "branch" : "15.0",
+        "target_path" : "vendor/xiaomi/surya"
+    },
+    {
+        "remote" : "github",
+        "repository" : "crdroidandroid/android_hardware_xiaomi",
+        "branch" : "15.0",
+        "target_path" : "hardware/xiaomi"
+    },
+    {
+        "remote" : "gitlab",
+        "repository" : "crdroidandroid/android_vendor_miuicamera",
+        "branch" : "leica-5.0-surya",
+        "target_path" : "vendor/xiaomi/miuicamera"
+    }
+]

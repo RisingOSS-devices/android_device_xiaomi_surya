@@ -14,6 +14,12 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Rise Up
+RISING_MAINTAINER := honokascape
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 732G" \
+    RisingMaintainer="Johan Liebert"
+
 # Device identifier.
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
@@ -28,3 +34,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="surya_global-user 12 RKQ1.211019.001 V14.0.2.0.SJGMIXM release-keys" \
     BuildFingerprint=POCO/surya_global/surya:12/RKQ1.211019.001/V14.0.2.0.SJGMIXM:user/release-keys
+
+# Targets
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_BCR := true
